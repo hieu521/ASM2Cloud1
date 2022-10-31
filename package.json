@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    
     "start": "node ./bin/www"
   },
   "dependencies": {
@@ -14,5 +13,18 @@
     "express-session": "^1.17.3",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieu521/ASM2Cloud1.git"
+  },
+  "author": "redolf nguyen huu hieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hieu521/ASM2Cloud1/issues"
+  },
+  "homepage": "https://github.com/hieu521/ASM2Cloud1#readme",
+  "description": ""
 }
