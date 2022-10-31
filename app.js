@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var session = require('express-session');
 const bp = require('body-parser')
+const PORT = process.env.PORT || 3000;
 
 // express session
 var expressSession = require('express-session');
@@ -26,6 +27,13 @@ app.use(expressSession({
 
 app.use(bp.json())
 app.use(bp.urlencoded({ extended: true }))
+app.listen(PORT, function (){
+  console.log("Server started on port"+ PORT)
+  
+
+})
+
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
