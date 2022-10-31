@@ -2,10 +2,10 @@ const Pool = require('pg').Pool;
 
 const pg_conn = new Pool(
     {
-        user: 'qiolrneyqhjvrc',
-        host: 'ec2-52-72-56-59.compute-1.amazonaws.com',
-        database: 'dc8io853ukduvb',
-        password: '523a98228a239a40ee8c82f6caa7fe9e728322d56f5f3e3684073bf66647f937',
+        user: 'nrwmsqhxfivpst',
+        host: 'ec2-54-163-34-107.compute-1.amazonaws.com',
+        database: 'dig8rncr5hug1',
+        password: '52600808eae93efbc5bb250191bbed61581b7f321a9de0ffa7e42dd88299afd2',
         port: 5432,
         ssl: {
             rejectUnauthorized: false,
